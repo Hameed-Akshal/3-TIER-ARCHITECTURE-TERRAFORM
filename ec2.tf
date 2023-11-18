@@ -1,3 +1,6 @@
+provider "aws" {
+  region = "us-east-1"  # Specify your desired AWS region
+}
 
 resource "aws_instance" "web" {
   ami           = "ami-0230bd60aa48260c6"                        #AMI
