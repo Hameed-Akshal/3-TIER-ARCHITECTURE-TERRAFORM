@@ -19,7 +19,7 @@ resource "aws_instance" "web" {
   user_data = "${file("demo.sh")}"
 
   tags = {
-    Name = "demoasdd"                                            #instance_name
+    Name = "ak"                                            #instance_name
   }
  }
   #Security Group Resource to open port 80 

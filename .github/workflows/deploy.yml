@@ -35,5 +35,5 @@ jobs:
       run: terraform apply -auto-approve tfplan
 
     - name: Clean up
-      run: terraform destroy -auto-approve
-      if: always()
+ #     run: terraform destroy -auto-approve
+ #    if: always()
