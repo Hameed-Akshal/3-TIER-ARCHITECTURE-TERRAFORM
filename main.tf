@@ -23,6 +23,6 @@ module "PARAMETERS" {
 #  source         = "./RDS"
 #}
 
-#module "EFS" {
-#  source         = "./EFS"
-#}
+module "EFS" {
+  source         = "./EFS"
+}
